@@ -5,7 +5,7 @@ const issue = {
             numberOfComments: 40,
             labels: ['Finalizado', 'Live 3', 'Semana-2'],
             author: "carlogilmar",
-            dateCreated: 1,
+            dateCreated: '14-04-2022',
             lastUpdated: '18-04-2022',
             getTitleAndAuthor: function(){
                   return `Title: ${this.title} Author: ${this.author}` 

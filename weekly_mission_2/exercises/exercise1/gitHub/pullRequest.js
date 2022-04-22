@@ -1,9 +1,9 @@
 const pullRequest = {
       title: "Agregue mi blog",
       branchName: "Main",
-      repositoryNameAssociated: "myBlog-LaunchX",
       status: "Open",
       author: "elchicogamer117",
+      repositoryNameAssociated: "myBlog-LaunchX",
       getStatus: function(){
             return `Status: ${this.status}` 
       },
